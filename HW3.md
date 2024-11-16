@@ -120,4 +120,4 @@ BuildDatabase -name db_chr4 chr4_sample.fasta
 RepeatModeler -database db_chr4 -threads 4 -LTRStruct
 RepeatMasker -lib /home/card/sravn_gen/arab/chr_4_repeat/consensi.fa.classified -pa 4 -dir RM_output_a /home/card/sravn_gen/arab/chr4_sample.fasta -a
 ```
-далее данные обрабатывались скриптом limura_plot, который лежит в этой дериктории. 
+далее данные обрабатывались скриптом kimura_plot, который лежит в этой дериктории. 
